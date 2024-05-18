@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.rightimg{
+    width: 300px;
+}
+
+.wrapper{
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    background-image: url(./left.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.right{
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    padding: 50px 0 0 50px;
+    flex-wrap: wrap;
+}
+
+
+.trombone{
+    padding: 0 0 10px 10px;
+    margin-bottom: 50px;
+}
